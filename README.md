@@ -62,6 +62,12 @@ export const style = vars => ({
 ##### 0.0.1
 first commit
 
+##### 0.0.2 - unreleased
+require node 13.5.0
+
+##### 0.0.3 - unreleased
+...
+
 [npm-image]: https://img.shields.io/npm/v/@magic-modules/messages.svg
 [npm-url]: https://www.npmjs.com/package/@magic-modules/messages
 [travis-image]: https://img.shields.io/travis/com/magic-modules/messages/master
