@@ -39,6 +39,7 @@ export const View = state => {
     duration: 5,
     type: 'newType',
   }
+
   return [
     h1(state.title),
     p([
