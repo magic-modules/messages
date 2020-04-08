@@ -1,9 +1,9 @@
 {
   "css": "sha384-FN0SRIfWZ5QvHmztlxTZaREZK0NqoBCWUx5L4RKwby6+vNnCbLdFrMeMIjCS7LpJ",
-  "js": "sha384-3g+3JsiWdRpSGv8E6hiQk45iOpSOroNvbvXk4pIgZh0FFPEi8IoLUwmYYfHb83Sw",
+  "js": "sha384-1c1hRRq2t/Npb3Wj0BOPaIYa74Mf8FhfrDyoG8/mUeQ27gqCl8s8tlC2dKTcpAGj",
   "pages": {
-    "/messages/": "sha384-M5Zf+LFQlv75xHTchxVNYWNadiWe/hBGu4znFQnIJEuKq2Ea6YZSrAosnJDMh88A",
-    "/messages/404/": "sha384-b0B6yJsiYjOgCO5XYkYSs0o6tb0OImrErGEutcdHpPhpRou7t/6n6VyOZlitG2lV"
+    "/messages/": "sha384-5Ox3EmAUVa0FtI1ZRet3n3H9UvQm4DO5fuECsgC8DLJb+azqJWRiDoQgtvqGCM/C",
+    "/messages/404/": "sha384-7+So6Urv7j92VwVYAU3kj3VaMDC+vLrY4gtYOibrhuEZU57IqC/xbP4zuuBXKymw"
   },
   "static": {
     "/robots.txt": "sha384-OOPMlDevy6+bGKGn3twa1iUprS861/Dw3/fYNoBLY/t786Oc5dYIQoTM+F+grZ/A",
