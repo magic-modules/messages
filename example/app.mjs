@@ -2,6 +2,7 @@ export const state = {
   title: '@magic-modules/messages',
   description: 'message popups for @magic.',
   logotext: 'Messages',
+
   menu: [
     { to: '/#installation', text: 'installation' },
     {
