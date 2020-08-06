@@ -125,8 +125,6 @@ export const style = vars => ({
       Link({ to: 'https://github.com/magic/core' }, '@magic/core'),
     ]),
 
-    LightSwitch(state),
-
     Messages(state),
   ]
 }
