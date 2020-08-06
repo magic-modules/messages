@@ -4,5 +4,5 @@ export default {
   URL: 'magic-modules.github.io/messages',
   PUBLIC: 'docs',
   THEME: 'docs',
-  HOIST: ['LightSwitch', 'NoSpy'],
+  HOIST: ['LightSwitch', 'NoSpy', 'Messages'],
 }
