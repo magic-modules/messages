@@ -40,6 +40,14 @@ export const View = state => {
     type: 'newType',
   }
 
+  const selfclosingMessage = {
+    title: 'self closing',
+    content: [
+      'click the button to remove the message:',
+      button({ onclick: [actions.messages.hide, 'self closing'] }, 'remove self closing message'),
+    ],
+  }
+
   return [
     h1(state.title),
     p([
@@ -79,6 +87,7 @@ export const View = {
     button({ onclick: [actions.messages.add, warning] }, 'add warning'),
     button({ onclick: [actions.messages.add, success] }, 'add success'),
     button({ onclick: [actions.messages.add, permanentMessage] }, 'add permanent message'),
+    button({ onclick: [actions.messages.add, selfclosingMessage] }, 'add selfclosing message'),
 
     h3({ id: 'usage-custom-message-type' }, 'custom messages type'),
 
