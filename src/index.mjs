@@ -10,7 +10,7 @@ export const View = props => {
           typeof msg.content.map === 'function'
             ? msg.content.map(a => p(a))
             : msg.content && p(msg.content),
-          button({ onclick: [actions.messages.hide, msg] }, 'x'),
+          button({ class: 'close', onclick: [actions.messages.hide, msg] }, 'x'),
         ]),
       ),
     ),
@@ -36,7 +36,14 @@ export const actions = {
     },
 
     hide: (state, message) => {
-      const index = state.messages.indexOf(message)
+      let index = -1
+      if (typeof message === 'string') {
+        const msg = state.messages.find(msg => msg.title === message)
+        index = state.messages.indexOf(msg)
+      } else {
+        index = state.messages.indexOf(message)
+      }
+
       // maybe the message already got removed by some other action
       if (index > -1) {
         state.messages.splice(index, 1)
@@ -97,7 +104,7 @@ export const style = (vars = {}) => ({
       padding: 0,
     },
 
-    button: {
+    'button.close': {
       position: 'absolute',
       top: '-0.75em',
       right: '-0.5em',
