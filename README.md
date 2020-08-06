@@ -61,13 +61,10 @@ export const style = vars => ({
 
 #### changelog
 
-##### 0.0.1
-first commit
+##### 0.0.1 - unreleased
+first release
 
 ##### 0.0.2 - unreleased
-require node 13.5.0
-
-##### 0.0.3 - unreleased
 ...
 
 [npm-image]: https://img.shields.io/npm/v/@magic-modules/messages.svg
