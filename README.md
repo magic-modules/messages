@@ -17,12 +17,14 @@ npm install --save-exact @magic-modules/messages
 ```
 
 #### usage:
-messages is different than most modules,
-it gets loaded automatically,
-if installed by yourself or one of the other @magic-modules you use.
 
-since quite some modules will depend on this module,
-it's quite likely that it will be loaded in most @magic apps.
+#### HOIST in config.mjs
+```javascript
+export default {
+  // ...other config
+  HOIST: ['Messages'],
+}
+```
 
 #### add message type:
 ```javascript
