@@ -64,7 +64,10 @@ export const style = vars => ({
 ##### 0.0.1 - unreleased
 first release
 
-##### 0.0.2 - unreleased
+##### 0.0.2
+bump required node version to 14.15.4
+
+##### 0.0.3 - unreleased
 ...
 
 [npm-image]: https://img.shields.io/npm/v/@magic-modules/messages.svg
