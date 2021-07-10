@@ -70,7 +70,10 @@ bump required node version to 14.15.4
 ##### 0.0.3 
 update dependencies (@magic-libraries/db)
 
-##### 0.0.4 - unreleased
+##### 0.0.4 
+update dependencies (@magic-libraries/db)
+
+##### 0.0.5 - unreleased
 ...
 
 [npm-image]: https://img.shields.io/npm/v/@magic-modules/messages.svg
